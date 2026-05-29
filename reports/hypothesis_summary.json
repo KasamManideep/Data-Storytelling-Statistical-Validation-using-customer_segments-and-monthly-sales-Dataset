@@ -1,0 +1,25 @@
+{
+  "test1": {
+    "test": "Chi-Squared",
+    "chi2": 4.4932,
+    "p": 0.034,
+    "ctrl_rate": 0.1146,
+    "treat_rate": 0.1795,
+    "lift_pct": 56.64,
+    "significant": true
+  },
+  "test2": {
+    "test": "T-Test",
+    "t_stat": 1.8352,
+    "p": 0.0335,
+    "ci_lo": -0.32,
+    "ci_hi": 10.31,
+    "significant": true
+  },
+  "test3": {
+    "test": "ANOVA",
+    "F": 849.5123,
+    "p": 0.0,
+    "significant": true
+  }
+}
